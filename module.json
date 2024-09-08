@@ -1,0 +1,109 @@
+{
+	"id": "garhis-grotto-mortal-woes",
+	"title": "GarhisGrotto|MortalWoes",
+	"version": "1.0.0",
+	"description": "A module housing select Garhi's Grotto content for use in Mortal Woes games.",
+	"authors": [
+		{
+		"name": "Garhi",
+		"email": "garhi@garhisgrotto.com",
+		"url": "www.garhisgrotto.com",
+		"discord": "garhi",
+		"flags": {}
+		}
+	],
+   "compatibility": {
+		"minimum": "12",
+		"verified": "12"
+	},
+	"relationships": {
+		"systems": [
+         {  "id": "dnd5e",
+            "type": "system",
+            "compatibility": {}
+         }]
+	},
+	"packs": [
+		{	"name": "gg-mw-items",
+			"label": "GG|MW - Items",
+			"path": "packs/gg-mw-items",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{	"name": "gg-mw-classes",
+			"label": "GG|MW - Classes",
+			"path": "packs/gg-mw-classes",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{	"name": "gg-mw-spells",
+			"label": "GG|MW - Spells",
+			"path": "packs/gg-mw-spells",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{	"name": "gg-mw-races",
+			"label": "GG|MW - Races",
+			"path": "packs/gg-mw-races",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{	"name": "gg-mw-reference",
+			"label": "GG|MW - Reference",
+			"path": "packs/gg-mw-reference",
+			"type": "JournalEntry",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		},
+		{	"name": "gg-mw-actors",
+			"label": "GG|MW - Actors",
+			"path": "packs/gg-mw-actors",
+			"type": "Actor",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "dnd5e",
+			"flags": {}
+		}
+  	],
+  	"packFolders": [
+	{	"name": "GG|Mortal-Woes",
+		"sorting": "m",
+		"color": "#7877e7",
+		"packs": [
+			"gg-mw-reference",
+         "gg-mw-items",
+			"gg-mw-classes",
+			"gg-mw-spells",
+			"gg-mw-races",
+			"gg-mw-actors"
+		],
+		"folders": []
+	}
+	]
+}
